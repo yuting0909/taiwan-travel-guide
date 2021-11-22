@@ -51,7 +51,7 @@ export default {
     imgUrl () {
       return (
         this.event.Picture.PictureUrl1 ||
-        require('@/assets/images/default-image.jpg')
+        require('@/assets/images/NoImage-255x200.png')
       )
     },
     startTime () {

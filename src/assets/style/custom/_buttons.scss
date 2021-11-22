@@ -1,0 +1,26 @@
+.btn {
+  color: $dark;
+  vertical-align: baseline;
+  .btn-check:focus + &,
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+.btn-outline-primary {
+  &.active,
+  &:hover {
+    color: $white;
+  }
+}
+.category-btn {
+  color: $dark;
+  border: 1px solid transparent;
+  &.active,
+  &:active,
+  &:hover {
+    color: $dark;
+    border: 1px solid $primary;
+    background-color: transparent;
+  }
+}
